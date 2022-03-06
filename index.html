@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Space Tic Tac Toe!</h1>
+        <h2 id="playerTurn"></h2>
+        <div id="inlinePlease"><div id="playerOneScoreHTML">Player one score: 0</div>
+        <div id="playerTwoScoreHTML">Player two score: 0</div>
+    </div>
+        <dialog open id="dialogBox">
+            <form>
+                <label for="fname">Player One name:</label>
+                <input type="text" id="playerOneName"><br>
+                <label for="fname" >Player Two name:</label>
+                <input type="text" id="playerTwoName">
+            </form>
+            Player One choose you symbol:
+            <button id="xButton">X</button>
+            <button id="oButton">O</button>    
+            </dialog>
+        <br/>
+        <div id="container">
+            <div id="box1" class="ticBox"></div>
+            <div id="box2" class="ticBox"></div>
+            <div id="box3" class="ticBox"></div>
+            <div id="box4" class="ticBox"></div>
+            <div id="box5" class="ticBox"></div>
+            <div id="box6" class="ticBox"></div>
+            <div id="box7" class="ticBox"></div>
+            <div id="box8" class="ticBox"></div>
+            <div id="box9" class="ticBox"></div>
+        </div>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <br/>
+        <br/>
+        <br/>
+        <button id="resetButton">RESET ROUND</button>
+        <button id="resetGameAndScore">RESET TOTAL SCORE</button>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
